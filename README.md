@@ -1,0 +1,1 @@
+# Maven-assembly plugin to configure the fsm-packaging
