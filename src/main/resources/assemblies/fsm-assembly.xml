@@ -9,13 +9,13 @@
 	<files>
 		<file>
 			<source>target/${project.artifactId}-${project.version}.jar</source>
-			<outputDirectory>/lib/</outputDirectory>
+			<outputDirectory>./lib/</outputDirectory>
 		</file>
 	</files>
 	<fileSets>
 		<fileSet>
 			<directory>${project.basedir}/target/dependencies</directory>
-			<outputDirectory>/lib/</outputDirectory>
+			<outputDirectory>./lib/</outputDirectory>
 		</fileSet>
 		<fileSet>
 			<directory>${project.basedir}/src/main/resources</directory>
@@ -23,7 +23,7 @@
 				<exclude>module.xml</exclude>
 				<exclude>module-isolated.xml</exclude>
 			</excludes>
-			<outputDirectory>/</outputDirectory>
+			<outputDirectory>./</outputDirectory>
 		</fileSet>
 		<fileSet>
 			<directory>${project.basedir}/target/classes</directory>
@@ -31,7 +31,7 @@
 				<include>module.xml</include>
 				<include>module-isolated.xml</include>
 			</includes>
-			<outputDirectory>/META-INF/</outputDirectory>
+			<outputDirectory>./META-INF/</outputDirectory>
 		</fileSet>
 	</fileSets>
 </assembly>
