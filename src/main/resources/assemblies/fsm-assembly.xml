@@ -21,12 +21,6 @@
 			<directory>${project.basedir}/src/main/resources</directory>
 			<excludes>
 				<exclude>module.xml</exclude>
-			</excludes>
-			<outputDirectory>/</outputDirectory>
-		</fileSet>
-		<fileSet>
-			<directory>${project.basedir}/src/main/resources</directory>
-			<excludes>
 				<exclude>module-isolated.xml</exclude>
 			</excludes>
 			<outputDirectory>/</outputDirectory>
@@ -35,12 +29,6 @@
 			<directory>${project.basedir}/target/classes</directory>
 			<includes>
 				<include>module.xml</include>
-			</includes>
-			<outputDirectory>/META-INF/</outputDirectory>
-		</fileSet>
-		<fileSet>
-			<directory>${project.basedir}/target/classes</directory>
-			<includes>
 				<include>module-isolated.xml</include>
 			</includes>
 			<outputDirectory>/META-INF/</outputDirectory>
